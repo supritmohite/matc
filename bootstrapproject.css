@@ -1,0 +1,37 @@
+*{
+ margin:0px;
+ padding:0px;
+}
+.main .container.my{
+height:500px; 
+ background:url(image/laser.jpg) no-repeat ;
+ background-size:1500px 600px;
+}
+.main .container.my1{
+height:320px; 
+ background:url(image/laptop.jpg) no-repeat;
+ background-size:1500px 600px;
+}
+
+.nav-item{
+	margin:20px;
+}
+.main-btn{
+	margin-top:22%;
+}
+.outer{
+	width:150px;
+	height:30px;
+}
+.inner{
+	width:150px;
+	height:30px;
+	background:white;
+	//-webkit-transition:width 2s,height 2s,transform 2s;
+	-webkit-transition:all 1s;
+}
+.outer:hover .inner{
+	width:150px;
+	height:30px;	
+	background:blue;
+}
